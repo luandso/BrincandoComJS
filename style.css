@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 16px;
+    gap: 16px;
+}
+
+.item{
+    height: 150px;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 32px;
+}
+
+.texto{
+    color: white;
+    font-size: 64px;
+
+}
+
+.forma{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.vermelho{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 0.5s;
+
+}
+.circulo{
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.imagem{
+    background-image: url("spfc.png");
+    background-position: center;
+}
+.triangulou{
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%); /* Triângulo */
+        width: 100px;
+        height: 100px;
+}
+.aumento{
+    width: 120px;
+    height: 120px;
+    transition: 0.5s;
+}
+.diminuo{
+    height: 80px;
+    width: 80px;
+    transition: 0.5s;
+}
+.achatar{
+    height: 50px;
+    transition: 0.5s;
+}
+.escurecer{
+    filter: brightness(0.5);
+    transition: 0.5s;
+}
+
+
